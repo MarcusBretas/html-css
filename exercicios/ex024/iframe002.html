@@ -3,7 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>iframe</title>
+    <style>
+      iframe {
+        display: block;
+        margin: auto;
+      }
+      iframe.erro {
+        color: red;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1>Teste com iframe</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo rerum
+      doloribus unde minus cum natus? Explicabo, voluptates unde quas neque
+      tenetur minima sint aspernatur esse pariatur, cupiditate, dolores
+      consequuntur nihil? Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Mollitia quisquam dolor illo facilis odio omnis accusantium
+      laboriosam! Nulla, tempore recusandae modi ratione optio incidunt
+      laudantium exercitationem sit delectus porro maxime?
+    </p>
+
+    <iframe
+      src="paginas-extras/pag001.html"
+      frameborder="0"
+      height="500"
+      width="500"
+    >
+      <p class="erro">Infelizmente seu navegador não é compatível com isso!</p>
+    </iframe>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nostrum
+      fugit voluptatibus tempore, maiores magni? Nostrum eveniet alias ducimus
+      labore, delectus ut aliquam porro, placeat est inventore cum atque sed!
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, qui cum
+      alias fuga est eos rerum beatae corporis facere dolores sapiente dolore,
+      voluptatem quisquam repellendus aliquam praesentium quos perferendis
+      laborum.
+    </p>
+  </body>
 </html>
