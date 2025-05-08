@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso de iframe</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      iframe#tela {
+        width: 95vw;
+        height: 400px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Faça uma escolha</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint sunt
+      consequuntur corrupti temporibus aperiam animi culpa impedit aliquam
+      labore incidunt? Earum temporibus ex quisquam blanditiis laborum sit
+      aspernatur et beatae.
+    </p>
+    <ul>
+      <li>
+        <a href="paginas-extras/pag001.html" target="frame">Primeira página</a>
+      </li>
+      <li>
+        <a href="paginas-extras/pag002.html" target="frame">Segunda página</a>
+      </li>
+      <li>
+        <a href="paginas-extras/pag003.html" target="frame">Terceira página</a>
+      </li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iusto
+      aspernatur commodi dolores debitis! Quae ipsam, unde in itaque ea quia
+      laudantium voluptatum eum obcaecati a ut saepe debitis reprehenderit.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci non
+      facilis fuga error iure eveniet, tenetur labore aliquid unde repudiandae
+      totam quasi nesciunt eos rerum dolorum mollitia cupiditate ut culpa!
+    </p>
+
+    <iframe
+      id="tela"
+      name="frame"
+      srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, et obcaecati tempora id quos debitis reprehenderit. Eaque fugit, assumenda inventore consectetur laudantium facere repellat libero sed, tenetur blanditiis quaerat placeat.</P><img src='imagens/logo-github.jpg'>"
+    >
+      <p>Infelizmente seu navegador não é ocmpatível com isso.</p>
+    </iframe>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa
+      repudiandae suscipit, saepe laborum repellendus consequatur hic voluptatem
+      amet corporis reiciendis similique vitae ad porro possimus molestiae
+      molestias incidunt dolorem! Lorem ipsum dolor sit amet consectetur,
+      adipisicing elit. Deleniti exercitationem fugiat consectetur aspernatur
+      tenetur labore quo illo vel, beatae rem soluta quod. Nihil facilis
+      accusantium neque debitis consequatur ipsum rerum.
+    </p>
+  </body>
+</html>
